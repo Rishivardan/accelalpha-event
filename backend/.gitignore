@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment/config files
+.env
+.env.*
+*.local
+
+# Bytecode/extension artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test/coverage outputs
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs
+*.log
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# FastAPI/Uvicorn
+*.pid
+uvicorn*.log
