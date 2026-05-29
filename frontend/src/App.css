@@ -632,6 +632,10 @@
   background: var(--card-alt);
 }
 
+.invite-card.shake {
+  animation: shake 0.4s ease;
+}
+
 .invite-card form {
   display: grid;
   gap: 16px;
@@ -662,6 +666,65 @@
 .input-error {
   color: #f3a64e;
   font-size: 12px;
+}
+
+.invite-response {
+  margin-top: 18px;
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(8, 20, 40, 0.55);
+  color: var(--text-strong);
+}
+
+.invite-response.success {
+  border-color: rgba(20, 217, 154, 0.4);
+  box-shadow: inset 0 1px 0 rgba(20, 217, 154, 0.2);
+}
+
+.invite-response.error {
+  border-color: rgba(243, 166, 78, 0.6);
+  color: #f3a64e;
+}
+
+.response-title {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.response-session {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 12px;
+  color: var(--text-strong);
+}
+
+.email-body {
+  line-height: 1.6;
+  color: var(--text);
+  font-family: 'Manrope', system-ui, sans-serif;
+}
+
+.email-body strong {
+  color: var(--text-strong);
+}
+
+.button-loading {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-top-color: rgba(12, 195, 255, 0.9);
+  animation: spin 0.8s linear infinite;
 }
 
 .primary-button.full {
@@ -835,6 +898,31 @@
   50% {
     opacity: 1;
     transform: translateY(4px);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(6px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
 
