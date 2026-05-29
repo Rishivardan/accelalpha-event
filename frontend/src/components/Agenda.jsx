@@ -177,7 +177,7 @@ function Agenda() {
 	}, [openTitle, filteredAgenda])
 
 	return (
-		<section className="section section-agenda" id="agenda">
+		<section className="section section-agenda" id="agenda" data-reveal>
 			<div className="section-header">
 				<h2>Conference Agenda</h2>
 				<p>

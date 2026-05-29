@@ -88,7 +88,7 @@ function Form() {
 	}
 
 	return (
-		<section className="section section-invite" id="invite">
+		<section className="section section-invite" id="invite" data-reveal>
 			<div className="section-header">
 				<div className="hero-badge">Personalized Experience</div>
 				<h2>Generate Your Personal Invitation</h2>

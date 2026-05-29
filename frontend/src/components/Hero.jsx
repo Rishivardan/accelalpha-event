@@ -16,7 +16,7 @@ function Hero() {
 	}, [])
 
 	return (
-		<section className="hero-section" id="hero">
+		<section className="hero-section" id="hero" data-reveal>
 			<div className="hero-slideshow" aria-hidden="true">
 				{slides.map((slide, index) => (
 					<img

@@ -10,7 +10,7 @@ function Home() {
 			<Navbar />
 			<main>
 				<Hero />
-				<section className="section section-intro" id="overview">
+				<section className="section section-intro" id="overview" data-reveal>
 					<div className="section-header">
 						<h2>Chart Your Course to Innovation</h2>
 						<p>
@@ -21,7 +21,7 @@ function Home() {
 						</p>
 					</div>
 					<div className="feature-grid">
-						<article className="feature-card">
+						<article className="feature-card" data-reveal data-reveal-delay="80">
 							<div className="feature-icon">
 								<svg viewBox="0 0 24 24" aria-hidden="true">
 									<path d="M7 7h10v10H7z" fill="none" />
@@ -37,7 +37,7 @@ function Home() {
 								transforming supply chain operations.
 							</p>
 						</article>
-						<article className="feature-card">
+						<article className="feature-card" data-reveal data-reveal-delay="140">
 							<div className="feature-icon">
 								<svg viewBox="0 0 24 24" aria-hidden="true">
 									<path
@@ -52,7 +52,7 @@ function Home() {
 								at enterprise scale.
 							</p>
 						</article>
-						<article className="feature-card">
+						<article className="feature-card" data-reveal data-reveal-delay="200">
 							<div className="feature-icon">
 								<svg viewBox="0 0 24 24" aria-hidden="true">
 									<path
@@ -67,7 +67,7 @@ function Home() {
 								global organizations.
 							</p>
 						</article>
-						<article className="feature-card">
+						<article className="feature-card" data-reveal data-reveal-delay="260">
 							<div className="feature-icon">
 								<svg viewBox="0 0 24 24" aria-hidden="true">
 									<path
@@ -86,7 +86,7 @@ function Home() {
 				</section>
 				<Agenda />
 				<Form />
-				<section className="section section-benefits" id="benefits">
+				<section className="section section-benefits" id="benefits" data-reveal>
 					<div className="section-header">
 						<h2>Why Attend This Conference?</h2>
 						<p>
@@ -95,7 +95,7 @@ function Home() {
 						</p>
 					</div>
 					<div className="benefit-grid">
-						<article className="benefit-card ai">
+						<article className="benefit-card ai" data-reveal data-reveal-delay="80">
 							<div className="benefit-icon">
 								<svg viewBox="0 0 24 24" aria-hidden="true">
 									<path
@@ -110,7 +110,7 @@ function Home() {
 								routes, and reduce manual intervention across your supply chain.
 							</p>
 						</article>
-						<article className="benefit-card analytics">
+						<article className="benefit-card analytics" data-reveal data-reveal-delay="140">
 							<div className="benefit-icon">
 								<svg viewBox="0 0 24 24" aria-hidden="true">
 									<path
@@ -125,7 +125,7 @@ function Home() {
 								models that learn from historical patterns and market signals.
 							</p>
 						</article>
-						<article className="benefit-card visibility">
+						<article className="benefit-card visibility" data-reveal data-reveal-delay="200">
 							<div className="benefit-icon">
 								<svg viewBox="0 0 24 24" aria-hidden="true">
 									<path
@@ -140,7 +140,7 @@ function Home() {
 								integration, blockchain tracking, and live dashboards.
 							</p>
 						</article>
-						<article className="benefit-card transformation">
+						<article className="benefit-card transformation" data-reveal data-reveal-delay="260">
 							<div className="benefit-icon">
 								<svg viewBox="0 0 24 24" aria-hidden="true">
 									<path
@@ -157,15 +157,15 @@ function Home() {
 						</article>
 					</div>
 					<div className="stats">
-						<div className="stat-card">
+						<div className="stat-card" data-reveal data-reveal-delay="120">
 							<h4>500+</h4>
 							<span>Enterprise Customers</span>
 						</div>
-						<div className="stat-card">
+						<div className="stat-card" data-reveal data-reveal-delay="200">
 							<h4>35%</h4>
 							<span>Average Cost Reduction</span>
 						</div>
-						<div className="stat-card">
+						<div className="stat-card" data-reveal data-reveal-delay="280">
 							<h4>10+</h4>
 							<span>Industry Experts</span>
 						</div>
