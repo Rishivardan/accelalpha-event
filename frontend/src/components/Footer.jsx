@@ -32,11 +32,11 @@ function Footer() {
 					<h4>Contact Us</h4>
 					<span>events@troubledwaters.ai</span>
 					<span>+1 (800) 555-0123</span>
-					<span>San Francisco, CA 94102</span>
+					<span>Marriott Resort, The Palm</span>
 				</div>
 			</div>
 			<div className="footer-bottom">
-				<span>© 2026 Troubled Waters Conference. All rights reserved.</span>
+				<span>© 2024 Troubled Waters Conference. All rights reserved.</span>
 				<div className="footer-links">
 					<a href="#">Privacy Policy</a>
 					<a href="#">Terms of Service</a>
