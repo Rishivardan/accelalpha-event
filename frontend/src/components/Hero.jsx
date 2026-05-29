@@ -33,7 +33,7 @@ function Hero() {
 			<div className="hero-content">
 				<div className="hero-badge">
 					<span className="badge-icon">◆</span>
-					Executive Conference 2026
+					Executive Conference 2024
 				</div>
 				<h1>Troubled Waters</h1>
 				<h2>
@@ -51,7 +51,7 @@ function Hero() {
 					</div>
 					<div className="meta-item">
 						<span className="meta-icon">▣</span>
-						June 01, 2026
+						November 13, 2024
 					</div>
 				</div>
 				<div className="hero-actions">
